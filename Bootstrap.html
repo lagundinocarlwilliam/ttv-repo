@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Bootstrap
+        </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
+    </head>
+    <body>
+        <div class="container">
+            <h1>Bootstrap</h1>
+
+            <div class="container p-5 m-5 border bg-danger text-white">
+                <h1>Sample container</h1>
+            </div>
+
+            <h1>GRID</h1>
+            <div class="row mb-5">
+                <div class="col bg-primary text-white p-3">Col1</div>
+                <div class="col bg-dark text-white p-3">Col2</div>
+                <div class="col bg-primary text-white p-3">Col3</div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-4 bg-primary text-white p-3">Col1</div>
+                <div class="col-6 bg-dark text-white p-3">Col2</div>
+                <div class="col-2 bg-primary text-white p-3">Col3</div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-md-4 bg-primary text-white p-3">Col1</div>
+                <div class="col-md-6 bg-dark text-white p-3">Col2</div>
+                <div class="col-md-2 bg-primary text-white p-3">Col3</div>
+            </div>
+
+            <section class="mb-5">
+                <h1>TEXT Emphasis</h1>
+
+                <p class="text-primary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laborum?</p>
+                <p class="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laborum?</p>
+                <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laborum?</p>
+                <p class="text-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laborum?</p>
+                <p class="text-danger">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laborum?</p>
+                <p class="text-warning">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laborum?</p>
+                <p class="text-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laborum?</p>
+            </section>
+
+            <section class="mb-5">
+                <blockquote class="blockquote">
+                    <h1>Blockquote</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, dolores accusantium? Labore debitis, quos quibusdam soluta aut ratione enim est eum, dolorem, atque facilis pariatur aliquid praesentium maiores nesciunt minus.</p>
+                    <footer class="blockquote-footer">Lorem ipsum dolor sit amet.</footer>
+                </blockquote>
+            </section>
+
+            <section class="mb-5">
+                <h2>TEXT TRANSFORM</h2>
+                <p class="text-lowercase">SAMPLE</p>
+                <p class="text-uppercase">sample</p>
+                <p class="text-capitalize">sample sample</p>
+            </section>
+
+            <section class="mb-5">
+                <h1>Text align</h1>
+                <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, itaque.</p>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nam illum voluptates sit. Doloribus maxime beatae odio molestiae at natus cupiditate, possimus tempore repudiandae laudantium aut dolor consectetur ipsum soluta!</p>
+                <p class="text-end">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, itaque.</p>
+            </section>
+
+            <section class="mb-5">
+                <p class="fw-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, accusamus?</p>
+                <p class="fw-bolder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eaque.</p>
+                <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eaque.</p>
+            </section>
+
+            <!-- TABLES -->
+            <section class="mb-5">
+                <h1>TABLES</h1>
+                <table class="table table-striped table-bordered table-hover">
+                    <tr class="table-danger">
+                        <th>Head1</th>
+                        <th>Head2</th>
+                        <th>Head3</th>
+                    </tr>
+                    <tr class="table-success">
+                        <td>Data1</td>
+                        <td>Data2</td>
+                        <td>Data3</td>
+                    </tr>
+                    <tr class="table-warning">
+                        <td>Data1</td>
+                        <td>Data2</td>
+                        <td>Data3</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- IMAGES -->
+            <section class="mb-5">
+                <h1>IMAGES</h1>
+                <img src="1984.jpg" class="rounded">
+                <img src="1984.jpg" class="rounded-circle">
+                <img src="1984.jpg" class="img-thumbnail">
+                <br>
+                <br>
+                <img src="1984.jpg" class="rounded float-start">
+                <img src="1984.jpg" class="rounded float-end">
+                <br>
+                <br>
+                <img src="1984.jpg" class="m-auto d-block">
+                <img src="1984.jpg" class="img-fluid" width="1200px">
+            </section>
+
+            <!-- ALERTS -->
+            <section class="mb-5">
+                <h1>ALERTS</h1>
+                <div class="alert alert-success">
+                    <strong>Success!</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, facere!
+                </div>
+                <div class="alert alert-warning">
+                    <strong>Warning!</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, facere!
+                </div>
+                <div class="alert alert-danger">
+                    <strong>Danger!</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, facere!
+                </div>
+
+                <div class="alert alert-danger alert-dismissible">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    <strong>Danger!</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, facere!
+                </div>            
+                <div class="alert alert-success alert-dismissible">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    <strong>Success!</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, facere!
+                </div>    
+
+                <div class="alert alert-danger alert-dismissible fade show">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    <strong>Danger!</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, facere!
+                </div>            
+                <div class="alert alert-success alert-dismissible fade show">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    <strong>Success!</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, facere!
+                </div>            
+            </section>
+
+            <!-- BUTTONS -->
+            <section class="mb-5">
+                <h1>BUTTONS</h1>
+                <button class="btn">Plain button</button>
+                <button class="btn btn-primary">Primary button</button>
+                <button class="btn btn-secondary">Secondary button</button>
+                <button class="btn btn-success">Success button</button>
+                <button class="btn btn-danger">Danger button</button>
+                <button class="btn btn-warning">Warning button</button>
+                <button class="btn btn-info">Info button</button>
+            </section>
+
+            <section class="mb-5">
+                <h1>BUTTON OUTLINE</h1>
+                <button class="btn">Plain button</button>
+                <button class="btn btn-outline-primary">Primary button</button>
+                <button class="btn btn-outline-secondary">Secondary button</button>
+                <button class="btn btn-outline-success">Success button</button>
+                <button class="btn btn-outline-danger">Danger button</button>
+                <button class="btn btn-outline-warning">Warning button</button>
+                <button class="btn btn-outline-info">Info button</button>
+            </section>
+
+            <section class="mb-5">
+                <h1>BUTTON SIZES</h1>
+                <button class="btn btn-primary btn-lg">Primary button</button>
+                <button class="btn btn-primary btn-sm">Primary button</button>
+                <button class="btn btn-primary">Primary button</button>
+                <button class="btn btn-primary">Primary button</button>
+            </section>
+
+            <section class="mb-5">
+                <h1>BUTTON BLOCK</h1>
+                <!-- btn-block -->
+                <button class="btn btn-primary col-12 mb-2">Primary button</button>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-success">Login</button>
+                    <button class="btn btn-warning">Register</button>
+                </div>
+            </section>
+
+            <section class="mb-5">
+                <h1>BUTTON ACTIVE AND DISABLED</h1>
+                <button class="btn btn-primary">Primary button</button>
+                <button class="btn btn-primary" disabled>Primary button</button>
+            </section>
+
+            <section class="mb-5">
+                <h1>BUTTON SPINNERS</h1>
+                <button class="btn btn-primary">
+                <span class="spinner-border spinner-border-sm"></span>
+                    Loading...
+                </button>
+            </section>
+
+            <section class="mb-5">
+                <h1>BUTTON MENU</h1>
+                <div class="btn-group">
+                    <button class="btn btn-primary">PRIMARY BUTTON</button>
+                    <button class="btn btn-primary">PRIMARY BUTTON</button>
+                    <button class="btn btn-primary">PRIMARY BUTTON</button>
+                </div>
+            </section>
+
+            <!-- PROGRESS -->
+            <section class="mb-5">
+                <h1>PROGRESS BAR</h1>
+                <div class="progress mb-5">
+                    <div class="progress-bar" style="width:50%"></div>
+                    <div class="progress-bar" style="width:20%"></div>
+                </div>
+                <div class="progress mb-5">
+                    <div class="progress-bar bg-success" style="width:50%"></div>
+                </div>            
+                <div class="progress mb-5">
+                    <div class="progress-bar progress-bar-striped" style="width:50%"></div>
+                </div>            
+                <div class="progress mb-5">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:50%"></div>
+                </div>            
+            </section>
+
+            <!-- SPINNERS -->
+            <section class="mb-5">
+                <div class="spinner-border text-primary"></div>
+                <div class="spinner-grow text-primary"></div>
+            </section>
+
+            <!-- PAGINATIONS -->
+            <section class="mb-5">
+                <h1>PAGINATION</h1>
+                <div class="pagination">
+                    <div class="page-item"><a href="" class="page-link">Previous</a></div>
+                    <div class="page-item"><a href="" class="page-link">1</a></div>
+                    <div class="page-item"><a href="" class="page-link">2</a></div>
+                    <div class="page-item"><a href="" class="page-link">Next</a></div>
+                </div>
+            </section>
+
+            <!-- LINKS -->
+            <section class="mb-5">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="">Item 1</a></li>
+                    <li class="breadcrumb-item"><a href="">Item 2</a></li>
+                    <li class="breadcrumb-item"><a href="">Item 3</a></li>
+                    <li class="breadcrumb-item active">Item 4</li>
+                </ul>
+            </section>
+
+            <!-- LIST GROUP -->
+            <section class="mb-5">
+                <h1>LISTGROUP - CART</h1>
+                <ol class="list-group mb-5">
+                    <li class="list-group-item">Item 1</li>
+                    <li class="list-group-item">Item 2</li>
+                    <li class="list-group-item">Item 3</li>
+                </ol>
+
+                <div class="list-group mb-5">
+                    <div class="list-group-item list-group-item-action">Item 1</div>
+                    <div class="list-group-item list-group-item-action">Item 2</div>
+                    <div class="list-group-item list-group-item-action">Item 3</div>
+                    <div class="list-group-item list-group-item-action disabled">Item 4</div>
+                </div>
+
+                <div class="list-group list-group-flush mb-5">
+                    <div class="list-group-item list-group-item-action">Item 1</div>
+                    <div class="list-group-item list-group-item-action">Item 2</div>
+                    <div class="list-group-item list-group-item-action">Item 3</div>
+                </div>
+
+                <div class="list-group mb-5 list-group-numbered list-group-flush">
+                    <div class="list-group-item list-group-item-action">Item 1</div>
+                    <div class="list-group-item list-group-item-action">Item 2</div>
+                    <div class="list-group-item list-group-item-action">Item 3</div>
+                </div>
+
+                <div class="list-group mb-5 list-group-horizontal">
+                    <div class="list-group-item list-group-item-action">Item 1</div>
+                    <div class="list-group-item list-group-item-action">Item 2</div>
+                    <div class="list-group-item list-group-item-action">Item 3</div>
+                </div>
+
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Inbox
+                        <span class="badge bg-primary">12</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Email
+                        <span class="badge bg-primary">10</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- CARDS -->
+            <div class="card mb-5" style="width: 400px;">
+                <img class="card-img-top" src="1984.jpg">
+                <div class="card-body">
+                    <h1 class="card-title">1984</h1>
+                    <p class="card-text">Activity1 by KodeGo</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                    <button class="btn btn-primary">Add to wishlist</button>
+                    <button class="btn btn-danger">Checkout</button>
+                </div>
+            </div>
+
+            <!-- COLLAPSE -->
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">
+                Collapse
+            </button>
+            <div class="collapse" id="demo">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi assumenda, iusto omnis aut culpa repellat perspiciatis ut ipsum atque, nam totam dolor accusantium, delectus modi sint recusandae consectetur inventore non dolores nobis quam vitae? Explicabo natus illum accusantium laborum est modi facere sapiente quasi, ducimus ullam culpa sunt dignissimos earum?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos error nemo explicabo, consectetur consequuntur suscipit! In voluptas doloremque commodi quidem!
+            </div>
+            
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
+    </body>
+</html>
